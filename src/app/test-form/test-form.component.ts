@@ -14,7 +14,7 @@ export class TestFormComponent implements OnInit {
   someNumber2: number;
   someNumber3: number;
   someNumber4: number;
-  matcost: IMatcost = {product: 123456, matCostValue: 2, yearMonth: 3, selfProducedMaterialCost: 4};
+  matcost: IMatcost = {product: 123456, matCostValue: 2, yearMonth: 201801, selfProducedMaterialCost: 4};
   constructor(private testFormService: TestFormServiceService) { }
 
   ngOnInit() {

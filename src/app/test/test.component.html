@@ -1,0 +1,21 @@
+<h1>test table</h1>
+<table>
+  <tr>
+    <th>ledgerNumber</th>
+    <th>matCost</th>
+    <th>leaseWorkCost</th>
+    <th>workCost</th>
+    <th>sumOfWorkCostExtra</th>
+    <th>sumOfSocialContributionCost</th>
+    <th>sumOfVocationalContributionTrainingCost</th>
+  </tr>
+  <tr *ngFor="let costList of costLists">
+      <th>{{costList.ledgerNumber}}</th>
+      <th>{{costList.matCost}}</th>
+      <th>{{costList.leaseWorkCost}}</th>
+      <th>{{costList.workCost}}</th>
+      <th>{{costList.workCostExtensions.sumOfWorkCostExtra}}</th>
+      <th>{{costList.workCostExtensions.sumOfSocialContributionCost}}</th>
+      <th>{{costList.workCostExtensions.sumOfVocationalContributionTrainingCost}}</th>
+  </tr>
+</table>
