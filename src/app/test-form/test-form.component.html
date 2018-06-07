@@ -1,0 +1,53 @@
+<!--<form (ngSubmit)="onSubmit()">-->
+  <!--<input name="number" [(ngModel)]="someNumber">-->
+  <!--<button type="submit">Submit</button>-->
+<!--</form>-->
+<h1>test form</h1>
+<br>
+<form (ngSubmit)="submitMatcost()">
+<table>
+  <tr>
+    <th>product</th>
+    <th>matCostValue</th>
+    <th>yearMonth</th>
+    <th>directCost</th>
+  </tr>
+  <tr>
+
+    <td><input name="product" type="number" [(ngModel)]="matcost.product"></td>
+    <td><input name="matCostValue" type="number" [(ngModel)]="matcost.matCostValue"></td>
+    <td><input name="yearMonth" type="number" [(ngModel)]="matcost.yearMonth"></td>
+    <td><input name="selfProducedMaterialCost" type="number" [(ngModel)]="matcost.selfProducedMaterialCost"></td>
+
+  </tr>
+
+
+
+</table>
+<button type="submit">Submit</button>
+</form>
+
+<!--<form (ngSubmit)="onSubmit()">-->
+<!--<table>-->
+  <!--<tr>-->
+    <!--<th>product</th>-->
+    <!--<th>matCostValue</th>-->
+    <!--<th>yearMonth</th>-->
+    <!--<th>directCost</th>-->
+  <!--</tr>-->
+  <!--<tr>-->
+
+    <!--<td><input name="someNumber" [(ngModel)]="someNumber"></td>-->
+    <!--<td><input name="someNumber2" [(ngModel)]="someNumber2"></td>-->
+    <!--<td><input name="someNumber3" [(ngModel)]="someNumber3"></td>-->
+    <!--<td><input name="someNumber4" [(ngModel)]="someNumber4"></td>-->
+
+  <!--</tr>-->
+
+
+
+<!--</table>-->
+<!--<button type="submit">Submit</button>-->
+<!--</form>-->
+
+
